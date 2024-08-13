@@ -1,0 +1,22 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f4f4f4;
+}
+
+.topbar-box {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.grey-box {
+  background-color: #d3d3d3;
+  color: black;
+}
+
+.black-box {
+  background-color: #333;
+}

@@ -1,0 +1,51 @@
+.material-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.material-section h2 {
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.materials {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.material {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.material img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.material img:hover {
+  transform: scale(1.05);
+}
+
+.material p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.material-btn {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.material-btn:hover {
+  background-color: #555;
+}
